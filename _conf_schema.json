@@ -1,0 +1,38 @@
+{
+  "checkin_enabled": {
+    "description": "启用签到功能",
+    "hint": "开启后用户可以使用签到功能获取随机积分",
+    "type": "bool",
+    "default": true
+  },
+  "normal_setu_enabled": {
+    "description": "启用涩图",
+    "hint": "开启后用户可以消耗10积分获取涩图",
+    "type": "bool",
+    "default": true
+  },
+  "r18_setu_enabled": {
+    "description": "启用R18涩图",
+    "hint": "开启后用户可以消耗30积分获取R18涩图",
+    "type": "bool",
+    "default": false
+  },
+  "setu_cooldown": {
+    "description": "涩图冷却时间（秒）",
+    "hint": "用户使用涩图功能后需要等待的时间，0表示无冷却",
+    "type": "int",
+    "default": 60
+  },
+  "exclude_ai": {
+    "description": "排除AI作品",
+    "hint": "开启后获取的涩图将排除AI生成的作品",
+    "type": "bool",
+    "default": true
+  },
+  "robbery_enabled": {
+    "description": "启用抢劫功能",
+    "hint": "开启后用户可以抢劫其他用户的积分，管理员可以奖励积分",
+    "type": "bool",
+    "default": true
+  }
+}
